@@ -1,8 +1,8 @@
 # Getting Started with Create React App
 
-pertama kali clone jangan lupa untuk npm install atau yarn install
-copy dan pastekan .env-example jadi .env di root project
-untuk melihat detail, silahkan click salah satu photo di home, lalu akan tampil dialog photo lalu klik photo yang muncul pada dialog tersebut
+pertama kali clone jangan lupa untuk npm install atau yarn install.\
+copy dan pastekan .env-example jadi .env di root project.\
+untuk melihat detail, silahkan click salah satu photo di home, lalu akan tampil dialog photo lalu klik photo yang muncul pada dialog tersebut.\
 link demo https://list-foto-muhammadansorinasution.vercel.app/
 
 ## Available Scripts
