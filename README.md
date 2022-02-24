@@ -5,6 +5,8 @@ copy dan pastekan .env-example jadi .env di root project.\
 untuk melihat detail, silahkan click salah satu photo di home, lalu akan tampil dialog photo lalu klik photo yang muncul pada dialog tersebut.\
 link demo https://list-foto-muhammadansorinasution.vercel.app/
 
+contoh palindrom https://codesandbox.io/s/icy-star-femsqf?file=/src/index.js
+
 ## Available Scripts
 
 In the project directory, you can run:
