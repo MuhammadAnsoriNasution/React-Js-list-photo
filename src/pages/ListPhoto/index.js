@@ -55,21 +55,23 @@ function ListPhoto() {
                 value={keyword}
                 onChange={(e) => setKeyword(e.target.value)}
             />
+
+            <ImageList cols={5}  >
+                {data.map((item, index) => {
+                    return (
+                        <ImageListItem key={item.img} key={item.id} ref={index + 1 === data.length && index > 10 ? lastElement : chiledRef} onClick={() => handleClickFoto(item)}>
+                            <img
+                                src={`${item.urls.small}`}
+                                srcSet={`${item.urls.small}`}
+                                alt={item.title}
+                            />
+                        </ImageListItem>
+                    )
+                })}
+            </ImageList>
+
             {
-                loading ? 'Loading...'
-                    : <ImageList cols={5}  >
-                        {data.map((item, index) => {
-                            return (
-                                <ImageListItem key={item.img} key={item.id} ref={index + 1 === data.length && index > 10 ? lastElement : chiledRef} onClick={() => handleClickFoto(item)}>
-                                    <img
-                                        src={`${item.urls.small}`}
-                                        srcSet={`${item.urls.small}`}
-                                        alt={item.title}
-                                    />
-                                </ImageListItem>
-                            )
-                        })}
-                    </ImageList>
+                loading ? 'Loading...' : null
             }
 
             {
